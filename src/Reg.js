@@ -44,7 +44,7 @@ const Reg=()=>
     {
         if(name==''||rno==''||gender==''||(Loc==''||Loc=='Select')||(hobby==''&&hobby1==''&&hobby2==''))
         {
-            setres("There is an Error.Try again");
+            setres("There is an Error.Try again later");
         }
         else
         {
